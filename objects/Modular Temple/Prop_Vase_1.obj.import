@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Vase_1.obj-e170602e1e074ae3cf93636de0fcecfe.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Vase_1.obj-e170602e1e074ae3cf93636de0fcecfe.mesh" ]
+
+source_file="res://objects/Modular Temple/Prop_Vase_1.obj"
+dest_files=[ "res://.import/Prop_Vase_1.obj-e170602e1e074ae3cf93636de0fcecfe.mesh", "res://.import/Prop_Vase_1.obj-e170602e1e074ae3cf93636de0fcecfe.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

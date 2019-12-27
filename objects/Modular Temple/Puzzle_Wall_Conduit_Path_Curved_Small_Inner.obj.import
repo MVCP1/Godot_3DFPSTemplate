@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Wall_Conduit_Path_Curved_Small_Inner.obj-05e74078338b69247506d709dde8e0b3.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Wall_Conduit_Path_Curved_Small_Inner.obj-05e74078338b69247506d709dde8e0b3.mesh" ]
+
+source_file="res://objects/Modular Temple/Puzzle_Wall_Conduit_Path_Curved_Small_Inner.obj"
+dest_files=[ "res://.import/Puzzle_Wall_Conduit_Path_Curved_Small_Inner.obj-05e74078338b69247506d709dde8e0b3.mesh", "res://.import/Puzzle_Wall_Conduit_Path_Curved_Small_Inner.obj-05e74078338b69247506d709dde8e0b3.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

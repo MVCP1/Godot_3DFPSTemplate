@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Flag_Stand_Extension.obj-29a00b15f02d0fb7d2c20cf682cd12cc.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Flag_Stand_Extension.obj-29a00b15f02d0fb7d2c20cf682cd12cc.mesh" ]
+
+source_file="res://objects/Modular Temple/Prop_Flag_Stand_Extension.obj"
+dest_files=[ "res://.import/Prop_Flag_Stand_Extension.obj-29a00b15f02d0fb7d2c20cf682cd12cc.mesh", "res://.import/Prop_Flag_Stand_Extension.obj-29a00b15f02d0fb7d2c20cf682cd12cc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

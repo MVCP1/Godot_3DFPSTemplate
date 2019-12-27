@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Control_Lever.obj-a7abf773c871d3295578c837ee359028.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Control_Lever.obj-a7abf773c871d3295578c837ee359028.mesh" ]
+
+source_file="res://objects/Modular Temple/Puzzle_Control_Lever.obj"
+dest_files=[ "res://.import/Puzzle_Control_Lever.obj-a7abf773c871d3295578c837ee359028.mesh", "res://.import/Puzzle_Control_Lever.obj-a7abf773c871d3295578c837ee359028.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

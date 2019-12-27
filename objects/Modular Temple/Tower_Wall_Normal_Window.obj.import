@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Tower_Wall_Normal_Window.obj-fd00a2a1083f73286f5aeab3254adb20.mesh"
+
+[deps]
+
+files=[ "res://.import/Tower_Wall_Normal_Window.obj-fd00a2a1083f73286f5aeab3254adb20.mesh" ]
+
+source_file="res://objects/Modular Temple/Tower_Wall_Normal_Window.obj"
+dest_files=[ "res://.import/Tower_Wall_Normal_Window.obj-fd00a2a1083f73286f5aeab3254adb20.mesh", "res://.import/Tower_Wall_Normal_Window.obj-fd00a2a1083f73286f5aeab3254adb20.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

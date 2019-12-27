@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wall_Curved_Small_Coping.obj-336d258b59e3305a7479bf309f68a7e7.mesh"
+
+[deps]
+
+files=[ "res://.import/Wall_Curved_Small_Coping.obj-336d258b59e3305a7479bf309f68a7e7.mesh" ]
+
+source_file="res://objects/Modular Temple/Wall_Curved_Small_Coping.obj"
+dest_files=[ "res://.import/Wall_Curved_Small_Coping.obj-336d258b59e3305a7479bf309f68a7e7.mesh", "res://.import/Wall_Curved_Small_Coping.obj-336d258b59e3305a7479bf309f68a7e7.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Sliding_Key.obj-ca480a955d1dd4287c3db7d723ecc927.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Sliding_Key.obj-ca480a955d1dd4287c3db7d723ecc927.mesh" ]
+
+source_file="res://objects/Modular Temple/Puzzle_Sliding_Key.obj"
+dest_files=[ "res://.import/Puzzle_Sliding_Key.obj-ca480a955d1dd4287c3db7d723ecc927.mesh", "res://.import/Puzzle_Sliding_Key.obj-ca480a955d1dd4287c3db7d723ecc927.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

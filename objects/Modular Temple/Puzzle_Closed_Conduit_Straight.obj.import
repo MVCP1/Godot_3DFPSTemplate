@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Closed_Conduit_Straight.obj-c86d9a24a35f1815ee824c40bc2b3f22.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Closed_Conduit_Straight.obj-c86d9a24a35f1815ee824c40bc2b3f22.mesh" ]
+
+source_file="res://objects/Modular Temple/Puzzle_Closed_Conduit_Straight.obj"
+dest_files=[ "res://.import/Puzzle_Closed_Conduit_Straight.obj-c86d9a24a35f1815ee824c40bc2b3f22.mesh", "res://.import/Puzzle_Closed_Conduit_Straight.obj-c86d9a24a35f1815ee824c40bc2b3f22.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

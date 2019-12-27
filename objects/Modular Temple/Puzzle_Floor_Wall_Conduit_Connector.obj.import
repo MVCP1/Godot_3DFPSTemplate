@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Floor_Wall_Conduit_Connector.obj-37ebef095ce60944269684710c073f45.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Floor_Wall_Conduit_Connector.obj-37ebef095ce60944269684710c073f45.mesh" ]
+
+source_file="res://objects/Modular Temple/Puzzle_Floor_Wall_Conduit_Connector.obj"
+dest_files=[ "res://.import/Puzzle_Floor_Wall_Conduit_Connector.obj-37ebef095ce60944269684710c073f45.mesh", "res://.import/Puzzle_Floor_Wall_Conduit_Connector.obj-37ebef095ce60944269684710c073f45.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

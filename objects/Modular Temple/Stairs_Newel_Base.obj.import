@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Stairs_Newel_Base.obj-cce7c0f11546adf31829ee23fa4f0b58.mesh"
+
+[deps]
+
+files=[ "res://.import/Stairs_Newel_Base.obj-cce7c0f11546adf31829ee23fa4f0b58.mesh" ]
+
+source_file="res://objects/Modular Temple/Stairs_Newel_Base.obj"
+dest_files=[ "res://.import/Stairs_Newel_Base.obj-cce7c0f11546adf31829ee23fa4f0b58.mesh", "res://.import/Stairs_Newel_Base.obj-cce7c0f11546adf31829ee23fa4f0b58.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

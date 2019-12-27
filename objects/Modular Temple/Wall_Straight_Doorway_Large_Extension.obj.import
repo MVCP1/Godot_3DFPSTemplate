@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wall_Straight_Doorway_Large_Extension.obj-68669f73e8fa8db749ab625d0ca954c4.mesh"
+
+[deps]
+
+files=[ "res://.import/Wall_Straight_Doorway_Large_Extension.obj-68669f73e8fa8db749ab625d0ca954c4.mesh" ]
+
+source_file="res://objects/Modular Temple/Wall_Straight_Doorway_Large_Extension.obj"
+dest_files=[ "res://.import/Wall_Straight_Doorway_Large_Extension.obj-68669f73e8fa8db749ab625d0ca954c4.mesh", "res://.import/Wall_Straight_Doorway_Large_Extension.obj-68669f73e8fa8db749ab625d0ca954c4.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

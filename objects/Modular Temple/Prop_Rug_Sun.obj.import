@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Rug_Sun.obj-219db5bb8c89846ca37ccd1734b021ec.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Rug_Sun.obj-219db5bb8c89846ca37ccd1734b021ec.mesh" ]
+
+source_file="res://objects/Modular Temple/Prop_Rug_Sun.obj"
+dest_files=[ "res://.import/Prop_Rug_Sun.obj-219db5bb8c89846ca37ccd1734b021ec.mesh", "res://.import/Prop_Rug_Sun.obj-219db5bb8c89846ca37ccd1734b021ec.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

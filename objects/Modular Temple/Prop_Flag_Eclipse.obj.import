@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Flag_Eclipse.obj-b1ae7bccfc4574096b7f16e0c13bd8dd.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Flag_Eclipse.obj-b1ae7bccfc4574096b7f16e0c13bd8dd.mesh" ]
+
+source_file="res://objects/Modular Temple/Prop_Flag_Eclipse.obj"
+dest_files=[ "res://.import/Prop_Flag_Eclipse.obj-b1ae7bccfc4574096b7f16e0c13bd8dd.mesh", "res://.import/Prop_Flag_Eclipse.obj-b1ae7bccfc4574096b7f16e0c13bd8dd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

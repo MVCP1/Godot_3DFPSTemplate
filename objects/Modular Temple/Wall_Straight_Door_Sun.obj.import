@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wall_Straight_Door_Sun.obj-ca1b0f8d99b8ff96a833f8c09ae6e4dd.mesh"
+
+[deps]
+
+files=[ "res://.import/Wall_Straight_Door_Sun.obj-ca1b0f8d99b8ff96a833f8c09ae6e4dd.mesh" ]
+
+source_file="res://objects/Modular Temple/Wall_Straight_Door_Sun.obj"
+dest_files=[ "res://.import/Wall_Straight_Door_Sun.obj-ca1b0f8d99b8ff96a833f8c09ae6e4dd.mesh", "res://.import/Wall_Straight_Door_Sun.obj-ca1b0f8d99b8ff96a833f8c09ae6e4dd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

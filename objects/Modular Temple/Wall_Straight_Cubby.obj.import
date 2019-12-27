@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wall_Straight_Cubby.obj-ff75a704b03a311db518e4e59ad0d18a.mesh"
+
+[deps]
+
+files=[ "res://.import/Wall_Straight_Cubby.obj-ff75a704b03a311db518e4e59ad0d18a.mesh" ]
+
+source_file="res://objects/Modular Temple/Wall_Straight_Cubby.obj"
+dest_files=[ "res://.import/Wall_Straight_Cubby.obj-ff75a704b03a311db518e4e59ad0d18a.mesh", "res://.import/Wall_Straight_Cubby.obj-ff75a704b03a311db518e4e59ad0d18a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

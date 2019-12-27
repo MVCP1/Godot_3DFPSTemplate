@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Sliding_Emitter.obj-449a14246615a7c8c31b91137969ed8f.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Sliding_Emitter.obj-449a14246615a7c8c31b91137969ed8f.mesh" ]
+
+source_file="res://objects/Modular Temple/Puzzle_Sliding_Emitter.obj"
+dest_files=[ "res://.import/Puzzle_Sliding_Emitter.obj-449a14246615a7c8c31b91137969ed8f.mesh", "res://.import/Puzzle_Sliding_Emitter.obj-449a14246615a7c8c31b91137969ed8f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

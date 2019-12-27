@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Wall_Conduit_Path_Cross.obj-ea271a86a0144d86f796a7039e7d44e1.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Wall_Conduit_Path_Cross.obj-ea271a86a0144d86f796a7039e7d44e1.mesh" ]
+
+source_file="res://objects/Modular Temple/Puzzle_Wall_Conduit_Path_Cross.obj"
+dest_files=[ "res://.import/Puzzle_Wall_Conduit_Path_Cross.obj-ea271a86a0144d86f796a7039e7d44e1.mesh", "res://.import/Puzzle_Wall_Conduit_Path_Cross.obj-ea271a86a0144d86f796a7039e7d44e1.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

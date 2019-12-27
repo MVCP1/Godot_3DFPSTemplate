@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Track_Rotating_Platform_Straight.obj-e7f7ba51a7fe6b674c8ac5b8f1c0dce5.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Track_Rotating_Platform_Straight.obj-e7f7ba51a7fe6b674c8ac5b8f1c0dce5.mesh" ]
+
+source_file="res://objects/Modular Temple/Puzzle_Track_Rotating_Platform_Straight.obj"
+dest_files=[ "res://.import/Puzzle_Track_Rotating_Platform_Straight.obj-e7f7ba51a7fe6b674c8ac5b8f1c0dce5.mesh", "res://.import/Puzzle_Track_Rotating_Platform_Straight.obj-e7f7ba51a7fe6b674c8ac5b8f1c0dce5.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

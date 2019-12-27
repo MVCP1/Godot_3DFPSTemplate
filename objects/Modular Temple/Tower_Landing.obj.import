@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Tower_Landing.obj-5bafa5e1cfa3134f9a0cc1be27781b48.mesh"
+
+[deps]
+
+files=[ "res://.import/Tower_Landing.obj-5bafa5e1cfa3134f9a0cc1be27781b48.mesh" ]
+
+source_file="res://objects/Modular Temple/Tower_Landing.obj"
+dest_files=[ "res://.import/Tower_Landing.obj-5bafa5e1cfa3134f9a0cc1be27781b48.mesh", "res://.import/Tower_Landing.obj-5bafa5e1cfa3134f9a0cc1be27781b48.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

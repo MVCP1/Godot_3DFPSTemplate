@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Tower_Wall_Tall_Windows.obj-17c2d256aa78c9086fc70988812dd4fb.mesh"
+
+[deps]
+
+files=[ "res://.import/Tower_Wall_Tall_Windows.obj-17c2d256aa78c9086fc70988812dd4fb.mesh" ]
+
+source_file="res://objects/Modular Temple/Tower_Wall_Tall_Windows.obj"
+dest_files=[ "res://.import/Tower_Wall_Tall_Windows.obj-17c2d256aa78c9086fc70988812dd4fb.mesh", "res://.import/Tower_Wall_Tall_Windows.obj-17c2d256aa78c9086fc70988812dd4fb.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

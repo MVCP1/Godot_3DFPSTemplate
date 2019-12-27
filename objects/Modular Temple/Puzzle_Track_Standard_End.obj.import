@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Track_Standard_End.obj-89c351bafaaf31457431226deb104c7d.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Track_Standard_End.obj-89c351bafaaf31457431226deb104c7d.mesh" ]
+
+source_file="res://objects/Modular Temple/Puzzle_Track_Standard_End.obj"
+dest_files=[ "res://.import/Puzzle_Track_Standard_End.obj-89c351bafaaf31457431226deb104c7d.mesh", "res://.import/Puzzle_Track_Standard_End.obj-89c351bafaaf31457431226deb104c7d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
