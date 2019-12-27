@@ -7,10 +7,10 @@
 [sub_resource type="CapsuleShape" id=1]
 height = 0.826801
 
-[sub_resource type="BoxShape" id=3]
+[sub_resource type="BoxShape" id=2]
 extents = Vector3( 0.5, 0.249185, 0.5 )
 
-[sub_resource type="SpatialMaterial" id=2]
+[sub_resource type="SpatialMaterial" id=3]
 albedo_color = Color( 0.294118, 0.717647, 0.12549, 1 )
 metallic = 1.0
 metallic_specular = 1.0
@@ -38,13 +38,13 @@ shape = SubResource( 1 )
 [node name="CollisionShape2" type="CollisionShape" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.1647, 0 )
 visible = false
-shape = SubResource( 3 )
+shape = SubResource( 2 )
 disabled = true
 
 [node name="CSGCylinder" type="CSGCylinder" parent="."]
 radius = 0.657496
 height = 2.26025
-material = SubResource( 2 )
+material = SubResource( 3 )
 
 [node name="frente" type="Position3D" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0 )
@@ -57,7 +57,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.93129, 0, 0 )
 texture = ExtResource( 2 )
 
 [node name="Camera" type="Camera" parent="."]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 0.75, 0, 0 )
+transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 0.75, 0.856198, 0 )
 current = true
 
 [node name="CanvasLayer" type="CanvasLayer" parent="Camera"]
@@ -66,6 +66,19 @@ current = true
 position = Vector2( 512, 300 )
 scale = Vector2( 0.25, 0.25 )
 texture = ExtResource( 2 )
+
+[node name="Sprite2" type="Sprite" parent="Camera/CanvasLayer"]
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 34.8027, 570.294 )
+scale = Vector2( 0.710156, 0.710156 )
+texture = ExtResource( 2 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Camera/CanvasLayer"]
+margin_left = 8.70952
+margin_top = 531.699
+margin_right = 79.7095
+margin_bottom = 546.699
+text = "CAINDO?"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 3 )

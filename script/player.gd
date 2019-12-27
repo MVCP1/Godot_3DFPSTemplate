@@ -36,14 +36,13 @@ func _process(delta):
 		mov = Vector3(0,0,0)
 		print(tocou)
 	if chao:
-		print("parado")
-		
+		$Camera/CanvasLayer/Sprite2.set_modulate(Color(1,0,0,1))
 		if Input.is_action_pressed("shift"):
 			vel = 7.5
 		else:
 			vel = 5
 	else:
-		print("caindo")
+		$Camera/CanvasLayer/Sprite2.set_modulate(Color(0,1,0,1))
 	pass
 
 func _physics_process(delta):
