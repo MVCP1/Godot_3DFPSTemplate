@@ -8,7 +8,7 @@
 height = 0.826801
 
 [sub_resource type="BoxShape" id=2]
-extents = Vector3( 0.5, 0.249185, 0.5 )
+extents = Vector3( 0.5, 0.193261, 0.5 )
 
 [sub_resource type="SpatialMaterial" id=3]
 albedo_color = Color( 0.294118, 0.717647, 0.12549, 1 )
@@ -24,6 +24,7 @@ ao_texture_channel = 0
 script = ExtResource( 1 )
 
 [node name="RayCast_chao" type="RayCast" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0 )
 enabled = true
 cast_to = Vector3( 0, -1.5, 0 )
 
@@ -32,12 +33,11 @@ enabled = true
 cast_to = Vector3( 0, 1.5, 0 )
 
 [node name="CollisionShape" type="CollisionShape" parent="."]
-transform = Transform( -4.37114e-008, -1, 4.37114e-008, 3.82137e-015, 4.37114e-008, 1, -1, 4.37114e-008, 1.91069e-015, 0, 0, 0 )
+transform = Transform( -4.37114e-08, -1, 4.37114e-08, 3.82137e-15, 4.37114e-08, 1, -1, 4.37114e-08, 1.91069e-15, 0, 0, 0 )
 shape = SubResource( 1 )
 
 [node name="CollisionShape2" type="CollisionShape" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.1647, 0 )
-visible = false
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.24232, 0 )
 shape = SubResource( 2 )
 disabled = true
 
@@ -46,18 +46,12 @@ radius = 0.657496
 height = 2.26025
 material = SubResource( 3 )
 
-[node name="frente" type="Position3D" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0 )
-
-[node name="lado" type="Position3D" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1 )
-
 [node name="Sprite3D" type="Sprite3D" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.93129, 0, 0 )
 texture = ExtResource( 2 )
 
 [node name="Camera" type="Camera" parent="."]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 0.75, 0.856198, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
 current = true
 
 [node name="CanvasLayer" type="CanvasLayer" parent="Camera"]
@@ -69,16 +63,90 @@ texture = ExtResource( 2 )
 
 [node name="Sprite2" type="Sprite" parent="Camera/CanvasLayer"]
 modulate = Color( 1, 0, 0, 1 )
-position = Vector2( 34.8027, 570.294 )
+position = Vector2( 162.004, 45.5882 )
+texture = ExtResource( 2 )
+
+[node name="Sprite6" type="Sprite" parent="Camera/CanvasLayer"]
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 54.4298, 47.2134 )
+texture = ExtResource( 2 )
+
+[node name="Sprite3" type="Sprite" parent="Camera/CanvasLayer"]
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 47.4365, 561.969 )
+scale = Vector2( 0.710156, 0.710156 )
+texture = ExtResource( 2 )
+
+[node name="Sprite4" type="Sprite" parent="Camera/CanvasLayer"]
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 258.19, 560.499 )
+scale = Vector2( 0.710156, 0.710156 )
+texture = ExtResource( 2 )
+
+[node name="Sprite5" type="Sprite" parent="Camera/CanvasLayer"]
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 150.193, 560.499 )
 scale = Vector2( 0.710156, 0.710156 )
 texture = ExtResource( 2 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Camera/CanvasLayer"]
-margin_left = 8.70952
-margin_top = 531.699
-margin_right = 79.7095
-margin_bottom = 546.699
-text = "CAINDO?"
+margin_left = 135.911
+margin_top = 81.194
+margin_right = 206.911
+margin_bottom = 96.194
+text = "CAINDO"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Camera/CanvasLayer"]
+margin_left = 12.5736
+margin_top = 519.812
+margin_right = 85.5736
+margin_bottom = 534.812
+text = "Is on floor?"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="Camera/CanvasLayer"]
+margin_left = 19.5153
+margin_top = 472.296
+margin_right = 253.515
+margin_bottom = 502.296
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel4" type="RichTextLabel" parent="Camera/CanvasLayer"]
+margin_left = 217.607
+margin_top = 521.136
+margin_right = 307.607
+margin_bottom = 541.136
+text = "Is on ceiling?"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel5" type="RichTextLabel" parent="Camera/CanvasLayer"]
+margin_left = 109.441
+margin_top = 520.136
+margin_right = 207.441
+margin_bottom = 541.136
+text = "Raycast_floor"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel6" type="RichTextLabel" parent="Camera/CanvasLayer"]
+margin_left = 11.3556
+margin_top = 82.6681
+margin_right = 302.355
+margin_bottom = 163.668
+text = "PÉS NO CHÃO"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 3 )
