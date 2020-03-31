@@ -7,7 +7,7 @@
 [ext_resource path="res://objects/Modular Temple/Tower_Wall_Normal_Window.obj" type="ArrayMesh" id=5]
 
 [sub_resource type="SpatialMaterial" id=1]
-albedo_color = Color( 0.105882, 0.317647, 0.262745, 1 )
+albedo_color = Color( 0.282353, 0.729412, 0.458824, 1 )
 metallic = 0.3
 metallic_specular = 0.86
 
@@ -27,7 +27,7 @@ albedo_color = Color( 0.501961, 0.0941176, 0.027451, 1 )
 albedo_color = Color( 0.854902, 0.0156863, 0.0156863, 1 )
 
 [sub_resource type="SpatialMaterial" id=7]
-albedo_color = Color( 0.262745, 0.352941, 0.333333, 1 )
+albedo_color = Color( 0.196078, 0.160784, 0.85098, 1 )
 metallic = 1.0
 metallic_specular = 0.0
 roughness = 0.45
@@ -236,11 +236,15 @@ transform = Transform( -1.77031e-09, 1.89276e-07, 1.717, 0.0701481, 2.5, 3.55326
 material = SubResource( 7 )
 
 [node name="caixa7" parent="." instance=ExtResource( 4 )]
-transform = Transform( -9.1638e-10, 4.2222e-07, 1.717, 0.07824, 2.58819, 0, -0.0209643, 9.65926, -7.50525e-08, 11.8302, 2.62231, 2.57001 )
+transform = Transform( -9.1638e-10, 4.2222e-07, 1.717, 0.07824, 2.58819, 0, -0.0209643, 9.65926, -7.50525e-08, 11.8297, 2.62231, 2.6578 )
+material = SubResource( 7 )
+
+[node name="caixa29" parent="." instance=ExtResource( 4 )]
+transform = Transform( -9.1638e-10, 4.2222e-07, 1.717, 0.0658664, 7.31431, -3.72295e-08, -0.0628749, 20.3444, -1.62565e-07, 22.0952, 5.94813, -16.2394 )
 material = SubResource( 7 )
 
 [node name="caixa17" parent="." instance=ExtResource( 4 )]
-transform = Transform( -9.81276e-10, 4.52121e-07, 1.83859, 0.07824, 2.58819, 0, -0.0209643, 9.65926, -7.50525e-08, 11.8302, -2.5448, 2.57001 )
+transform = Transform( -9.81276e-10, 4.52121e-07, 1.83859, 0.07824, 2.58819, 0, -0.0209643, 9.65926, -7.50525e-08, 11.9233, -2.46696, 2.51004 )
 material = SubResource( 7 )
 
 [node name="caixa4" parent="." instance=ExtResource( 4 )]

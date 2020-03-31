@@ -79,7 +79,13 @@ texture = ExtResource( 2 )
 
 [node name="Sprite4" type="Sprite" parent="Camera/CanvasLayer"]
 modulate = Color( 1, 0, 0, 1 )
-position = Vector2( 258.19, 560.499 )
+position = Vector2( 259.092, 562.304 )
+scale = Vector2( 0.710156, 0.710156 )
+texture = ExtResource( 2 )
+
+[node name="Sprite7" type="Sprite" parent="Camera/CanvasLayer"]
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 372.807, 559.596 )
 scale = Vector2( 0.710156, 0.710156 )
 texture = ExtResource( 2 )
 
@@ -109,11 +115,33 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="RichTextLabel8" type="RichTextLabel" parent="Camera/CanvasLayer"]
+margin_left = 12.0
+margin_top = 417.0
+margin_right = 99.0
+margin_bottom = 503.0
+text = "INERTIA
+
+
+MOVEMENT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="RichTextLabel3" type="RichTextLabel" parent="Camera/CanvasLayer"]
-margin_left = 19.5153
-margin_top = 472.296
-margin_right = 253.515
-margin_bottom = 502.296
+margin_left = 16.8078
+margin_top = 479.516
+margin_right = 250.808
+margin_bottom = 509.516
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel7" type="RichTextLabel" parent="Camera/CanvasLayer"]
+margin_left = 16.8078
+margin_top = 432.586
+margin_right = 250.808
+margin_bottom = 462.586
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -124,6 +152,16 @@ margin_top = 521.136
 margin_right = 307.607
 margin_bottom = 541.136
 text = "Is on ceiling?"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel9" type="RichTextLabel" parent="Camera/CanvasLayer"]
+margin_left = 343.054
+margin_top = 521.136
+margin_right = 433.054
+margin_bottom = 541.136
+text = "Is on wall?"
 __meta__ = {
 "_edit_use_anchors_": false
 }
