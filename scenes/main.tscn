@@ -1,7 +1,6 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://scenes/player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://scenes/bullet.tscn" type="PackedScene" id=2]
 [ext_resource path="res://objects/Modular Temple/Tower_Wall_Tall_Doorway.obj" type="ArrayMesh" id=3]
 [ext_resource path="res://scenes/caixa.tscn" type="PackedScene" id=4]
 [ext_resource path="res://objects/Modular Temple/Tower_Wall_Normal_Window.obj" type="ArrayMesh" id=5]
@@ -56,9 +55,6 @@ transform = Transform( 0.624139, -0.409263, 0.665548, 0.0486741, 0.870545, 0.489
 size = 8.0
 near = 0.01
 far = 321.0
-
-[node name="bullet" parent="." instance=ExtResource( 2 )]
-transform = Transform( 0.146542, 0, -0.989205, 0, 1, 0, 0.989205, 0, 0.146542, 11.0707, 2.12885, -3.37031 )
 
 [node name="Tower_Wall_Tall_Doorway" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.414902, -1.80783, -1.55252 )
@@ -196,35 +192,35 @@ transform = Transform( -6.91566e-08, 0, -8.53723, -0.162995, 3.45795e-08, 3.8445
 material = SubResource( 7 )
 
 [node name="caixa8" parent="." instance=ExtResource( 4 )]
-transform = Transform( 6.36191e-09, 0, 0.785365, -0.162995, 3.45795e-08, 3.84457e-08, 3.58265e-09, 0.673548, -8.5417e-16, 4.74279, 1.07904, -11.7765 )
+transform = Transform( 6.36191e-09, 0, 0.785365, -0.162995, 3.45795e-08, 3.84457e-08, 3.58265e-09, 0.673548, -8.5417e-16, 4.74279, 1.07904, -16.5271 )
 material = SubResource( 8 )
 
 [node name="caixa9" parent="." instance=ExtResource( 4 )]
-transform = Transform( 6.36191e-09, 0, 0.785365, -0.162995, 3.45795e-08, 3.84457e-08, 3.58265e-09, 0.673548, -8.5417e-16, 6.95312, 2.41256, -11.7765 )
+transform = Transform( 6.36191e-09, 0, 0.785365, -0.162995, 3.45795e-08, 3.84457e-08, 3.58265e-09, 0.673548, -8.5417e-16, 6.95312, 2.41256, -16.5271 )
 material = SubResource( 8 )
 
 [node name="caixa10" parent="." instance=ExtResource( 4 )]
-transform = Transform( 6.36191e-09, 0, 0.785365, -0.162995, 3.45795e-08, 3.84457e-08, 3.58265e-09, 0.673548, -8.5417e-16, 9.15517, 3.67836, -11.7765 )
+transform = Transform( 6.36191e-09, 0, 0.785365, -0.162995, 3.45795e-08, 3.84457e-08, 3.58265e-09, 0.673548, -8.5417e-16, 9.15517, 3.67836, -16.5271 )
 material = SubResource( 8 )
 
 [node name="caixa12" parent="." instance=ExtResource( 4 )]
-transform = Transform( 6.36191e-09, 0, 0.785365, -0.162995, 3.45795e-08, 3.84457e-08, 3.58265e-09, 0.673548, -8.5417e-16, 0.541654, 3.67836, -11.7991 )
+transform = Transform( -6.36191e-09, -5.88834e-08, -0.785365, -0.162995, 3.45795e-08, 3.84457e-08, -3.58265e-09, -0.673548, 6.86588e-08, -7.7591, 3.67836, -15.686 )
 material = SubResource( 8 )
 
 [node name="caixa13" parent="." instance=ExtResource( 4 )]
-transform = Transform( 6.36191e-09, 0, 0.785365, -0.162995, 3.45795e-08, 3.84457e-08, 3.58265e-09, 0.673548, -8.5417e-16, 3.19277, 5.29887, -10.4587 )
+transform = Transform( -6.36191e-09, -5.88834e-08, -0.785365, -0.162995, 3.45795e-08, 3.84457e-08, -3.58265e-09, -0.673548, 6.86588e-08, -9.64242, 5.29887, -12.6823 )
 material = SubResource( 8 )
 
 [node name="caixa14" parent="." instance=ExtResource( 4 )]
-transform = Transform( 6.36191e-09, 0, 0.785365, -0.162995, 3.45795e-08, 3.84457e-08, 3.58265e-09, 0.673548, -8.5417e-16, -1.43373, 3.03715, -14.1431 )
+transform = Transform( -6.36191e-09, -5.88834e-08, -0.785365, -0.162995, 3.45795e-08, 3.84457e-08, -3.58265e-09, -0.673548, 6.86588e-08, -5.01592, 3.03715, -13.342 )
 material = SubResource( 8 )
 
 [node name="caixa15" parent="." instance=ExtResource( 4 )]
-transform = Transform( 6.36191e-09, 0, 0.785365, -0.162995, 3.45795e-08, 3.84457e-08, 3.58265e-09, 0.673548, -8.5417e-16, -1.43373, 1.02102, -10.4096 )
+transform = Transform( -6.36191e-09, -5.88834e-08, -0.785365, -0.162995, 3.45795e-08, 3.84457e-08, -3.58265e-09, -0.673548, 6.86588e-08, -2.11269, 1.02102, -16.2351 )
 material = SubResource( 8 )
 
 [node name="caixa11" parent="." instance=ExtResource( 4 )]
-transform = Transform( 6.36191e-09, 0, 0.785365, -0.162995, 3.45795e-08, 3.84457e-08, 3.58265e-09, 0.673548, -8.5417e-16, 11.1315, 4.83643, -11.7765 )
+transform = Transform( 6.36191e-09, 0, 0.785365, -0.162995, 3.45795e-08, 3.84457e-08, 3.58265e-09, 0.673548, -8.5417e-16, 11.1315, 4.83643, -16.5271 )
 material = SubResource( 8 )
 
 [node name="caixa3" parent="." instance=ExtResource( 4 )]
@@ -268,7 +264,7 @@ transform = Transform( -3.53103e-09, 0, 1.71674, 0, 2.80146, 0, -0.0807806, 0, -
 material = SubResource( 7 )
 
 [node name="KinematicBody" type="KinematicBody" parent="."]
-transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 1, -6.73892, 0, -0.688167 )
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 1, -6.73892, -0.72097, -2.92245 )
 
 [node name="Tower_Wall_Normal_Window" type="MeshInstance" parent="KinematicBody"]
 transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0 )
