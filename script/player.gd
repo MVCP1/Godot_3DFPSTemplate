@@ -35,8 +35,8 @@ func _physics_process(delta):
 		get_tree().quit()
 	
 	#FLOOR CHECK
-	get_node("RayCast_chao").force_raycast_update()
-	var on_floor = is_on_floor() or get_node("RayCast_chao").is_colliding()
+	get_node("RayCast_floor").force_raycast_update()
+	var on_floor = is_on_floor() or get_node("RayCast_floor").is_colliding()
 	
 	#MOVEMENT VECTOR
 	var move = Vector3()
@@ -113,7 +113,7 @@ func _physics_process(delta):
 		$Camera/CanvasLayer/Sprite3.set_modulate(Color(0,1,0,1))
 	else:
 		$Camera/CanvasLayer/Sprite3.set_modulate(Color(1,0,0,1))
-	if get_node("RayCast_chao").is_colliding():
+	if get_node("RayCast_floor").is_colliding():
 		$Camera/CanvasLayer/Sprite5.set_modulate(Color(0,1,0,1))
 	else:
 		$Camera/CanvasLayer/Sprite5.set_modulate(Color(1,0,0,1))
